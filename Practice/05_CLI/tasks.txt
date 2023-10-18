@@ -1,0 +1,28 @@
+Folder structure:
+CLI
+  |--A
+  |  |---1
+  |  |---2
+  |-- B
+  |-- C
+
+Your actual directory is CLI
+
+Create a folder inside A/ caled 3
+Create a first.txt file into A/1 folder
+Create a second.txt file into A/1 folder
+Create a third.pdf file into B/ folder
+Move all txt files from A/1/ folder to A/2/folder
+Rename B/third.pdf to second.csv
+Remove all files from B/ folder
+Write the contents of the folder A/2 into a new file called A2Folder.txt
+Create a file called cica.txt
+Copy all the contents of the A2Folder.txt into A2FolderCopy.txt
+Insert text "hajjaj" at the end of cica.txt
+Insert text "hajjaj again" at the end of cica.txt
+Insert text "semmibaj" at the end of cica.txt
+Copy all the lines from cica.txt into sadCica.doc that contains "hajjaj"
+Insert text "hajjaj" at the end of cica.txt
+Copy all the lines from cica.txt into sadCica2.doc that contains "hajjaj" 
+      without duplication
+Remove folder A/

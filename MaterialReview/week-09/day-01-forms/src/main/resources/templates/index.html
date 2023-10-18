@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create account</title>
+  <style>
+    #message {
+      margin-top: 20px;
+    }
+    #errors {
+      color: red;
+    }
+  </style>
+  <script defer src="index.js"></script>
+</head>
+<body>
+<h1>Welcome🤗</h1>
+<form>
+  <fieldset>
+    <legend>Create Account</legend>
+    <div>
+      <label for="name-input">Full name:</label>
+      <input id="name-input" type="text">
+    </div>
+    <div>
+      <label for="email-input">E-mail:</label>
+      <input id="email-input" type="text">
+    </div>
+    <div>
+      <label for="phone-input">Phone number:</label>
+      <input id="phone-input" type="text">
+    </div>
+    <div>
+      <label>Gender: </label>
+      <input id="female" type="radio" value="female" name="gender">
+      <label for="female">female</label>
+      <input id="male" type="radio" value="male" name="gender">
+      <label for="male">male</label>
+    </div>
+    <div>
+      <label for="password-input">Password:</label>
+      <input id="password-input" type="password">
+    </div>
+    <div>
+      <button id="submit-btn">Sign up</button>
+      <button type="reset">Clear</button>
+    </div>
+    <div id="errors"></div>
+  </fieldset>
+</form>
+<div id="message"></div>
+</body>
+</html>

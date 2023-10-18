@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Lovely webshop</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<form th:action="@{/annotations}" method="post">
+  <label for="input">Filter for this: </label>
+  <input type="text" name="data-sent" id="input" placeholder="...type here">
+  <button type="submit">Filter for annotated entity</button>
+</form>
+<br>
+
+<table>
+  <thead>
+  <th>Name</th>
+  <th>Annotated Entity</th>
+  <th>Description</th>
+  </thead>
+  <tbody>
+  <tr th:each="annotation : ${annotations}">
+    <td th:text="${annotation.getName()}"></td>
+    <td th:text="${annotation.getAnnotatedEntity()}"></td>
+    <td th:text="${annotation.getDescription()}"></td>
+  </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+Useful stuff for today 😎
+- Shorthand properties: 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties 
+- Box model: 
+  https://www.w3schools.com/css/css_boxmodel.asp 
+  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+- All kind of selectors: 
+  https://www.w3schools.com/cssref/css_selectors.php
+  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+- Units: 
+  https://www.w3schools.com/cssref/css_units.php
+  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+- Special characters: https://www.teachucomp.com/special-characters-in-html-tutorial/
+- Google Fonts: https://www.w3schools.com/css/css_font_google.asp
+
+Fun stuff:
+https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image

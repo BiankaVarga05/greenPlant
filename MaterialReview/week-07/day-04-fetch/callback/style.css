@@ -1,0 +1,48 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  margin: 5;
+}
+
+header {
+  background-color: brown;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+main {
+  margin: auto;
+  width: 1120px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+}
+
+main section article {
+  width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: #8df;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: gainsboro;
+  color: black;
+}

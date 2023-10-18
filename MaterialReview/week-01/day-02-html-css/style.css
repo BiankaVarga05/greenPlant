@@ -1,0 +1,24 @@
+h1 {
+    color: green;
+}
+
+body {
+    /* background-color: beige;
+    background-image: url(assets/background.avif);
+    background-repeat: no-repeat;
+    background-position: right top; */
+    background: beige url(assets/background.avif) no-repeat right top;
+}
+
+.paragraph {
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    line-height: 1.5em;  /* 16px = 1em */
+    font-family: Sofia; 
+}
+
+#important, .paragraph {
+    background: pink;
+}

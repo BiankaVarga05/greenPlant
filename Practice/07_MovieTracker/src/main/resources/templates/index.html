@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div id="general-message"></div>
+<form>
+    <div>
+        <label for="title">Title*:</label>
+        <br>
+        <input id="title" type="text">
+        <div id="title-error" style="color: red"></div>
+    </div>
+    <div>
+        <label for="genre">Genre:</label>
+        <br>
+        <input id="genre" type="text">
+    </div>
+    <div>
+        <label for="rating">Rating*:</label>
+        <br>
+        <input id="rating" type="number" style="width: 50px">
+        <div id="rating-error" style="color: red"></div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+</form>
+<ol id="movie-list"></ol>
+<button id="by-rating">Order by rating</button>
+<button id="by-title">Order by title</button>
+<script src="index.js"></script>
+</body>
+</html>

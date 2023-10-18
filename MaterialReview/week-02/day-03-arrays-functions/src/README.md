@@ -1,0 +1,26 @@
+# Summary
+
+- Arrays
+  - one variable refers to multiple elements
+  - zero-based indexes
+  - elements are accessed with `[]` operators
+  - traversal with `for` loop
+  - 2 types of for loop
+- Matrices
+  - arrays that contain arrays
+  - 2 indexes: row and column (in this order)
+  - traversal with nested `for` loop
+- Functions
+  - function call with `()` operators
+  - function call = jump in code
+  - data sharing with parameters, arguments & return values
+  - _parameters_ are input variables
+  - _arguments_ are input values
+  - printing is side effect
+  - function call is _expression_ = it can be replaced with its return value
+  - parameters passed _by value_ or _by reference_
+- Reference types
+  - data type name starts with capital letter
+  - null value = empty memory address
+  - they need to be cloned
+  - they cannot be compared with `==`

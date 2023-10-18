@@ -1,0 +1,17 @@
+Secret Messaging API
+
+Principles to demonstrate:
+- Test driven development
+- Iterative development
+- Separation of concerns
+
+Requirements:
+-[x] As a sender, I want to send a message with a password
+-[x] As a recipient, I want to receive the message using the password
+-[x] As a user, I want messages to be stored permanently
+-[x] As a user, I want messages to be encrypted
+-[ ] As a user, I want messages to expire in 1 day
+
+Public interface:
+- void sendMessage(String message, String password)
+- String receiveMessage(String password)
